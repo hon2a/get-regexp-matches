@@ -4,7 +4,22 @@ Execute a regular expression on a string until all matches are found and return 
 
 ## Use
 
-Add a usage guide...
+Install using
+
+```sh
+npm install @hon2a/get-regexp-matches
+```
+
+Use with a regular expression with the "global" flag set to get all matches
+
+```javascript
+import { getRegexpMatches } from '@hon2a/get-regexp-matches'
+
+const regExp = /ab/g
+const text = 'aab abbbab'
+getRegexpMatches(regExp, text)
+// returns array yielded by repeatedly running `regExp.exec(text)` until exhausted
+```
 
 ## Development
 
