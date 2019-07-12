@@ -1,6 +1,6 @@
 {
   "name": "@hon2a/get-regexp-matches",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Execute a regular expression on a string until all matches are found and return them.",
   "repository": {
     "type": "git",
